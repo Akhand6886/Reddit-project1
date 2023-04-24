@@ -10,16 +10,16 @@ Before you begin, you should have the following tools installed on your local ma
 - Git
 
 # For Docker Installation
-sudo apt-get update \n
-sudo apt-get install docker.io -y \n
-sudo usermod -aG docker $USER && newgrp docker \n
+sudo apt-get update <br>
+sudo apt-get install docker.io -y <br>
+sudo usermod -aG docker $USER && newgrp docker <br>
 
 ---------------
 minikube.sh
 ---------------
 # For Minikube & Kubectl
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64  \n
-sudo install minikube-linux-amd64 /usr/local/bin/minikube  \n
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64  <br>
+sudo install minikube-linux-amd64 /usr/local/bin/minikube  <br>
 
-sudo snap install kubectl --classic \n
-minikube start --driver=docker \n
+sudo snap install kubectl --classic <br>
+minikube start --driver=docker <br>
