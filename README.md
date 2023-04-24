@@ -8,3 +8,8 @@ Before you begin, you should have the following tools installed on your local ma
 - Minikube cluster ( Running )
 - kubectl
 - Git
+
+# For Docker Installation
+sudo apt-get update
+sudo apt-get install docker.io -y
+sudo usermod -aG docker $USER && newgrp docker
