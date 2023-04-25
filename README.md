@@ -31,3 +31,9 @@ aws cli
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"  <br>
 unzip awscliv2.zip  <br>
 sudo ./aws/install  <br>
+
+
+-----------------------------
+CloudFormation URL for creating VPC stack
+-----------------------------
+https://amazon-eks.s3.us-west-2.amazonaws.com/cloudformation/2020-06-10/amazon-eks-vpc-private-subnets.yaml
