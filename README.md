@@ -23,3 +23,11 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube  <br>
 
 sudo snap install kubectl --classic <br>
 minikube start --driver=docker <br>
+
+
+-----------------
+aws cli
+----------------
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"  <br>
+unzip awscliv2.zip  <br>
+sudo ./aws/install  <br>
