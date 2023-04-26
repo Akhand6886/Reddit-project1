@@ -79,3 +79,5 @@ aws-iam-authenticator help
 Create an EKS cluster
 ------------------------
 eksctl create cluster -f cluster.yaml --kubeconfig=~/.kube/config
+
+aws eks --region ap-south-1 update-kubeconfig --name EKS-Demo-Cluster
